@@ -130,26 +130,28 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-white py-10 px-6">
+    <footer className="bg-[#1f2329] text-white py-5 px-6">
       {/* Top Section */}
       <div className="flex justify-between container mx-auto">
         {/* Get Lark Today Section */}
         <div className="col-span-2 sm:col-span-1">
-          <h4 className="font-semibold text-lg mb-4">Get Lark today</h4>
-          <div className="flex items-center gap-2">
-            <button className="bg-white text-gray-900 border border-gray-300 px-4 py-2 rounded w-full sm:w-auto">
+          <h4 className="font-bold text-lg mb-4">Get Lark today</h4>
+          <div className="flex flex-col gap-[10px]">
+            <button className="bg-white font-semibold text-[#3370FF] border border-[#3370FF] px-6 py-2 rounded-[30px] text-[18px] w-full sm:w-auto">
               Contact us
             </button>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded w-full sm:w-auto">
+            <button className="bg-[#3370FF] text-white px-5 py-2 rounded-[30px] font-semibold text-[18px] w-full sm:w-auto">
               Download Lark
             </button>
           </div>
-          <div className="mt-4 space-y-1">
-            <p className="text-sm flex items-center">
-              🌟 <span className="ml-2">Users love us</span>
+          <div className="mt-4 font-bold text-[#FFFFFFCC] space-y-1">
+            <p className="flex items-center">
+              <img src="/FooterUserImg.avif" alt="User" className="w-3" />{" "}
+              <span className="ml-2 text-[12px]">Users love us</span>
             </p>
             <p className="text-sm flex items-center">
-              ⭐ <span className="ml-2">App Store 4.9</span>
+              <img src="/FooterAppStore.avif" className="w-3" alt="App Store" />{" "}
+              <span className="ml-2 text-[12px]">App Store ⭐⭐⭐⭐⭐ 4.9</span>
             </p>
           </div>
         </div>
