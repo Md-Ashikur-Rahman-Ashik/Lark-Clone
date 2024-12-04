@@ -1,5 +1,11 @@
+import PayLess from "../../components/PayLess";
+
 const Home = () => {
-  return <p>This is Homepage</p>;
+  return (
+    <>
+      <PayLess />
+    </>
+  );
 };
 
 export default Home;
