@@ -28,13 +28,34 @@ const PayLess = () => {
             Assist organizations to improve efficiency
           </li>
         </ul>
-        <div className="flex justify-center mt-4">
-          <button className="px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600">
-            Book a demo →
+        <div className="flex justify-center gap-4 mt-4">
+          <button className="px-4 flex gap-2 text-xl font-semibold py-2 rounded-full border-[#ffffff33] border-4 bg-gradient-to-br from-blue-500 to-indigo-600 text-white">
+            Book a demo{" "}
+            <span className="border-white text-[#3370FF] bg-white border-2 rounded-[100px] px-2">
+              →
+            </span>
           </button>
-          <button className="px-4 py-2 rounded-md bg-gray-200 text-gray-700 hover:bg-gray-300">
-            Try for free
-          </button>
+          <div
+            style={{
+              backgroundColor: "white",
+              display: "inline-block",
+              padding: "0.5rem",
+              border: "2px solid rgba(128, 128, 128, 0.4)"
+            }}
+            className="rounded-full"
+          >
+            <button
+              className="text-xl px-4 font-semibold"
+              style={{
+                background:
+                  "linear-gradient(96deg, var(--token-d5a17d1f-2990-4a9f-b1ca-388c105e73de, rgb(71, 82, 230)) 0%, var(--token-f3e71d39-60d3-470b-86c0-689dedddff26, rgb(36, 196, 255)) 100%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              Try for free
+            </button>
+          </div>
         </div>
       </div>
     </div>
