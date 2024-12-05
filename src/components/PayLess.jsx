@@ -1,12 +1,12 @@
 const PayLess = () => {
   return (
-    <div className="rounded-lg lg:h-auto md:h-96 h-[420px] shadow-md">
+    <div className="rounded-lg lg:h-[420px] md:h-96 h-[510px] shadow-md">
       <img
         src="/PayLessBg.avif"
-        className="relative lg:h-auto md:h-96 h-[420px]"
+        className="relative lg:h-[420px] md:h-96 h-[510px]"
         alt="Pay less background"
       />
-      <div className="text-center absolute top-[83%] md:left-[4%] lg:left-[20%]">
+      <div className="text-center absolute lg:top-[90%] lg:bottom-0 md:top-[155%] md:left-[4%] lg:left-[20%] top-[260%]">
         <h2 className="text-2xl md:text-[32px] font-bold text-[#1F2329] mb-4">
           Pay less to get more today
         </h2>
