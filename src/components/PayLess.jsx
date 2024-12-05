@@ -6,7 +6,7 @@ const PayLess = () => {
         className="relative lg:h-auto md:h-96 h-[420px]"
         alt="Pay less background"
       />
-      <div className="text-center absolute top-[6%] md:left-[4%] lg:left-[20%]">
+      <div className="text-center absolute top-[83%] md:left-[4%] lg:left-[20%]">
         <h2 className="text-2xl md:text-[32px] font-bold text-[#1F2329] mb-4">
           Pay less to get more today
         </h2>
