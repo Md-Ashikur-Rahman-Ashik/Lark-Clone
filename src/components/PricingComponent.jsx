@@ -38,13 +38,32 @@ const PricingComponent = () => {
             <li>
               <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
+                Enterprise search across all messages, files, emails, calendars,
+                and documents.
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
                 Custom business email
               </span>
             </li>
             <li>
               <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
+                5000 automated workflow executions / month
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
                 100GB cloud storage + 200GB email storage
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
+                100GB meeting recording and AI meeting minutes
               </span>
             </li>
             <li>
@@ -76,7 +95,6 @@ const PricingComponent = () => {
           <p className="text-[#646A73] mb-6">Up to 500 users</p>
           <ul className="text-sm text-gray-600 space-y-2 mb-6">
             <li>
-              <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
                 Everything in Starter, plus:
               </span>
@@ -90,13 +108,31 @@ const PricingComponent = () => {
             <li>
               <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
+                50,000 automated workflow executions / month
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
                 1TB Cloud Storage + 5TB Email Storage
               </span>
             </li>
             <li>
               <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
+                5 TB meeting recording + AI meeting minutes
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
                 Unlimited Wiki Knowledge base
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
+                24 hours meeting duration and 500 meeting participants
               </span>
             </li>
             <li>
@@ -136,9 +172,14 @@ const PricingComponent = () => {
           <p className="text-[#646A73] mb-6">Unlimited users</p>
           <ul className="text-sm text-gray-600 space-y-2 mb-6">
             <li>
-              <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
                 Everything in Pro, plus:
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
+                500,000 automated workflow executions / month
               </span>
             </li>
             <li>
@@ -150,7 +191,25 @@ const PricingComponent = () => {
             <li>
               <span className="text-[#3673FE]">✓</span>{" "}
               <span className="text-[14px] text-[#646A73]">
+                50TB meeting recordings + AI meeting minutes
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
                 Large group collaboration (up to 50,000 users)
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
+                Single Sign-On (SSO)
+              </span>
+            </li>
+            <li>
+              <span className="text-[#3673FE]">✓</span>{" "}
+              <span className="text-[14px] text-[#646A73]">
+                Restricted Mode Group Chat
               </span>
             </li>
             <li>
