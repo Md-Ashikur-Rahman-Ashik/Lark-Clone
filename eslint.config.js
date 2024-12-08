@@ -13,7 +13,10 @@ export default [
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
+<<<<<<< HEAD
         node: true,
+=======
+>>>>>>> bb776b6d304428d56c947be09eb975c32d8207a8
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
