@@ -21,7 +21,7 @@ const SuperAppSection = () => {
           className="flex space-x-12 animate-slide-left"
           style={{ animationDuration: '30s' }}
         >
-          {/* Add your images or divs here */}
+
           {[...Array(10)].map((_, index) => (
             <div
               key={index}

@@ -23,7 +23,7 @@ export default function NavBar() {
   };
 
   const handleMouseLeave = () => {
-    // Add a small delay to prevent instant hiding
+
     setTimeout(() => {
       if (!dropdownHovered) {
         setOpenDropdown(null);
